@@ -11,7 +11,7 @@ Slot Machine Prototype v2
 ### Walkthrough on sourceCode :
 
 **- Settings Profile:**
-The prototype based on settings profiles with a **scriptable object** hold all the settings of the game.
+The prototype based on settings profiles which a **scriptable object** hold all the settings of the game.
 the benefits from that it's allow us to change settings, graphics and behaviors in one shot even in the play mode.
 
 to create a new settings just **Right Click in project -> Create -> Settings**
