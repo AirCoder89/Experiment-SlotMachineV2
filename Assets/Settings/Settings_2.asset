@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1028d0b5ae56d304ba203bc6a31768b3, type: 3}
+  m_Name: Settings_2
+  m_EditorClassIdentifier: 
+  resourcesList:
+  - type: 0
+    background: {fileID: 21300000, guid: fabdf0e6b43b85c43b174db09d88232a, type: 3}
+    icon: {fileID: 21300000, guid: e8f41b521967d9645a9af8d51a95ab39, type: 3}
+  - type: 1
+    background: {fileID: 21300000, guid: fabdf0e6b43b85c43b174db09d88232a, type: 3}
+    icon: {fileID: 21300000, guid: 50a1ca634a5fe744194dbe02eed72af6, type: 3}
+  - type: 2
+    background: {fileID: 21300000, guid: fabdf0e6b43b85c43b174db09d88232a, type: 3}
+    icon: {fileID: 21300000, guid: 9699465e5a43d094b97bedf210dd5f5c, type: 3}
+  - type: 3
+    background: {fileID: 21300000, guid: fabdf0e6b43b85c43b174db09d88232a, type: 3}
+    icon: {fileID: 21300000, guid: f574474c25b5dbd429c5057966bec4c0, type: 3}
+  - type: 4
+    background: {fileID: 21300000, guid: f76a61738f2d7234d961cc2068c11105, type: 3}
+    icon: {fileID: 21300000, guid: c35b0d4c81dbc15458d3f294fcf52f21, type: 3}
+  - type: 5
+    background: {fileID: 21300000, guid: b716d31629dec3e44bfd9cbba2cfc6ef, type: 3}
+    icon: {fileID: 21300000, guid: 0a454c7b86f9a2d4d8ba4167e9895ba8, type: 3}
+  - type: 6
+    background: {fileID: 21300000, guid: 0a7d836a050bdb64b8107bd84787bdd3, type: 3}
+    icon: {fileID: 21300000, guid: ddaae84399a6d064c815a3d87841f0db, type: 3}
+  - type: 7
+    background: {fileID: 21300000, guid: bfb7557c3d889ba4ea85540774656a51, type: 3}
+    icon: {fileID: 21300000, guid: c87a2f9d5f536cb4fa3b52a49c6d9309, type: 3}
+  spinSettings:
+    startSpin: 0
+    endSpin: 0
+    delayAmongReels: {x: 0.1, y: 0.25}
+    useSameAcceleration: 1
+    useSameSpeed: 1
+    minClamp: 0.05
+    topBoundary: -365.6
+    bottomBoundary: -605
+    startSpeed: {x: 100, y: 400}
+    acceleration: {x: 1, y: 2}
+    speedRange: {x: 20, y: 600}
+  paylines:
+  - color: {r: 1, g: 0.2783019, b: 0.54327875, a: 1}
+    points: 45
+  - color: {r: 0.63329226, g: 0.4009434, b: 1, a: 1}
+    points: 23
+  - color: {r: 0.0990566, g: 0.5300965, b: 1, a: 1}
+    points: 55
+  - color: {r: 0.495283, g: 0.91473836, b: 1, a: 1}
+    points: 22
+  horizontalLayout: 169
+  verticalLayout: 41.3
+  slotScale: 1.089
+  payLinesData:
+  - storedData: 11000#00011#00100&45
+    payLineValue: 11322
+    payLineColor: {r: 1, g: 0.2783019, b: 0.54327875, a: 1}
+  - storedData: 00011#00100#11000&23
+    payLineValue: 33211
+    payLineColor: {r: 0.63329226, g: 0.4009434, b: 1, a: 1}
+  - storedData: 00100#11010#00001&55
+    payLineValue: 22123
+    payLineColor: {r: 0.0990566, g: 0.5300965, b: 1, a: 1}
+  - storedData: 11001#00000#00110&22
+    payLineValue: 11331
+    payLineColor: {r: 0.495283, g: 0.91473836, b: 1, a: 1}
